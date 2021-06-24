@@ -8,10 +8,9 @@
 
 <h3>I have used Room persistence library for the database part of the application, which provides an abstraction layer over SQLite to allow fluent database access while harnessing the full power of SQLite.
  
-<h2>APP
+<h2>APP<h3>
  
-
- ![APP](https://user-images.githubusercontent.com/69066791/123279163-3c78fb80-d525-11eb-865a-afe3f1312c86.gif)
+![APP](https://user-images.githubusercontent.com/69066791/123279163-3c78fb80-d525-11eb-865a-afe3f1312c86.gif)
 
 
  
