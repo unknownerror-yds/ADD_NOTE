@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_list"
+    app:cardBackgroundColor="#5E8B7E"
+    android:layout_margin="2dp"
+    app:cardElevation="50dp"
+    >
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       >
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="60dp"
+           android:orientation="vertical"
+           android:layout_margin="10dp"
+           >
+
+           <TextView
+               android:id="@+id/notetitle"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:fontFamily="@font/roboto_bold"
+               android:hint="TITLE"
+               android:textColor="@color/white"
+               android:textColorHint="#a9b0b4"
+               android:textSize="18sp"
+               android:textStyle="bold" />
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal">
+
+               <Space
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1" />
+
+               <ImageView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:id="@+id/expand"
+                   android:layout_marginStart="8dp"
+                   android:src="@drawable/ic_baseline_arrow_drop_down_24"
+                   app:tint="#F9AA33" />
+
+               <ImageView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:id="@+id/edit"
+                   android:layout_marginStart="8dp"
+                   android:src="@drawable/ic_baseline_edit_24"
+                   app:tint="#F9AA33" />
+
+               <ImageView
+                   android:id="@+id/delete"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginStart="8dp"
+                   android:src="@drawable/ic_baseline_delete_outline_24"
+                   app:tint="#F9AA33" />
+
+           </LinearLayout>
+       </LinearLayout>
+
+
+       <LinearLayout
+           android:id="@+id/hidden"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_margin="2dp"
+           android:orientation="vertical"
+           android:visibility="gone"
+           android:background="@drawable/border"
+           >
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text=" Desc..."
+               android:textColor="#dfdfdf"
+               android:layout_margin="2dp"
+               />
+           <TextView
+               android:id="@+id/textvieww"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textColor="@color/white"
+               android:textSize="14sp"
+               android:layout_margin="5dp"
+               android:textStyle="bold" />
+
+       </LinearLayout>
+
+   </LinearLayout>
+</androidx.cardview.widget.CardView>
