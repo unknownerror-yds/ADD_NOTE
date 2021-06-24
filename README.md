@@ -8,7 +8,7 @@
 
 <h3>I have used Room persistence library for the database part of the application, which provides an abstraction layer over SQLite to allow fluent database access while harnessing the full power of SQLite.
 
- ![APP](https://user-images.githubusercontent.com/69066791/123275442-f3737800-d521-11eb-91fe-c5dfe8739b47.mp4)
+ ![APP](https://github.com/unknownerror-yds/ADD_NOTE/issues/1#issue-929257711)
 
 
  
