@@ -1,6 +1,6 @@
 **Introduction**
 
-While Listening / Reading something, taking notes is a important procedure.
+While Listening / Reading something, taking notes is an important procedure.
 
 So here is a android app for doing same in which u can perform all CRUD operations.
 
